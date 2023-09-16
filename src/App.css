@@ -1,0 +1,42 @@
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  gap: 10px;
+}
+
+li {
+  margin: 10px;
+}
+a {
+  text-decoration: none;
+  height: 20%;
+  color: blueviolet;
+}
+a:active {
+  color: yellowgreen;
+}
+
+.container {
+  background-color: rgb(32, 32, 33);
+  padding: 20px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+label,
+input {
+  display: inline-block;
+  margin: 5px;
+}
